@@ -1,0 +1,10 @@
+logging:
+  level:
+    br.com.openfeign.client.*: DEBUG
+
+
+server:
+  port: 8080
+
+via-cep-api:
+  url: https://viacep.com.br/ws
