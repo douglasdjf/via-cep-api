@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.PathVariable;
             configuration = AutoConfiguration.class)
 public interface ViaCepClient {
 
-    @GetMapping("/{cep}")
+    @GetMapping("/{cep}/json")
     EnderecoDTO buscarPeloCep(@PathVariable("cep") Long cep);
 }
