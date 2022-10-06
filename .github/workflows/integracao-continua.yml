@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    
+        
     - name: Configurando Java 17
       uses: actions/setup-java@v3
       with:
@@ -24,3 +24,6 @@ jobs:
         
     - name: Build Applicação Jar
       run: mvn clean package 
+
+      
+      
